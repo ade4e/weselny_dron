@@ -158,7 +158,14 @@
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="Wpisz swój adres e-mail" required>
-
+                <label for="package">Wybierz pakiet:</label>
+                <select id="package" name="package" required>
+                    <option value="" disabled selected>Wybierz opcję</option>
+                    <option value="pakiet1">Pakiet 1</option>
+                    <option value="pakiet2">Pakiet 2</option>
+                    <option value="pakiet3">Pakiet 3</option>
+                    <option value="indywidualny">Pakiet indywidualny</option>
+                </select>
                 <label for="message">Wiadomość:</label>
                 <textarea id="message" name="message" placeholder="Jestem zainteresowany waszą ofertą!"
                     required></textarea>

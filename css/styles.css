@@ -154,7 +154,7 @@ h3 {
 
 .section p {
   margin: 0 0 1.5rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .section .btn {
@@ -505,7 +505,8 @@ footer ul li:nth-child(3) a:before {
 }
 
 #contact form input,
-#contact form textarea {
+#contact form textarea,
+#contact form select {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #ddd;
@@ -534,6 +535,7 @@ footer ul li:nth-child(3) a:before {
 #contact form button[type="reset"]:hover {
   background: #495057;
 }
+
 
 .footer-info {
   text-align: center;
@@ -584,7 +586,7 @@ footer ul li:nth-child(3) a:before {
   header nav ul.active {
     display: flex;
     position: absolute;
-    top: 48px;
+    top: 70px;
     right: 0;
     background: #333;
     width: 100%;
